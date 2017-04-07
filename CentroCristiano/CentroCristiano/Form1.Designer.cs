@@ -34,7 +34,7 @@
             this.Diosbendice = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.PastoresLabel = new System.Windows.Forms.Label();
-            this.Pastores = new System.Windows.Forms.Button();
+            this.Pastoresbutton = new System.Windows.Forms.Button();
             this.Red = new System.Windows.Forms.Button();
             this.RedLabel = new System.Windows.Forms.Label();
             this.Lider = new System.Windows.Forms.Button();
@@ -59,8 +59,8 @@
             // 
             // CCLogo
             // 
-            this.CCLogo.Image = ((System.Drawing.Image)(resources.GetObject("CCLogo.Image")));
-            this.CCLogo.InitialImage = ((System.Drawing.Image)(resources.GetObject("CCLogo.InitialImage")));
+            this.CCLogo.Image = global::CentroCristiano.Properties.Resources.CC;
+            this.CCLogo.InitialImage = null;
             this.CCLogo.Location = new System.Drawing.Point(47, 27);
             this.CCLogo.Name = "CCLogo";
             this.CCLogo.Size = new System.Drawing.Size(141, 90);
@@ -79,7 +79,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Image = global::CentroCristiano.Properties.Resources.S2017;
             this.pictureBox1.Location = new System.Drawing.Point(892, 27);
             this.pictureBox1.MinimumSize = new System.Drawing.Size(62, 90);
             this.pictureBox1.Name = "pictureBox1";
@@ -97,20 +97,21 @@
             this.PastoresLabel.Text = "Pastor";
             this.PastoresLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Pastores
+            // Pastoresbutton
             // 
-            this.Pastores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Pastores.Image = ((System.Drawing.Image)(resources.GetObject("Pastores.Image")));
-            this.Pastores.Location = new System.Drawing.Point(572, 105);
-            this.Pastores.Name = "Pastores";
-            this.Pastores.Size = new System.Drawing.Size(45, 45);
-            this.Pastores.TabIndex = 2;
-            this.Pastores.UseVisualStyleBackColor = true;
+            this.Pastoresbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Pastoresbutton.Image = global::CentroCristiano.Properties.Resources.sig;
+            this.Pastoresbutton.Location = new System.Drawing.Point(572, 105);
+            this.Pastoresbutton.Name = "Pastoresbutton";
+            this.Pastoresbutton.Size = new System.Drawing.Size(45, 45);
+            this.Pastoresbutton.TabIndex = 2;
+            this.Pastoresbutton.UseVisualStyleBackColor = true;
+            this.Pastoresbutton.Click += new System.EventHandler(this.Pastores_Click);
             // 
             // Red
             // 
             this.Red.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Red.Image = ((System.Drawing.Image)(resources.GetObject("Red.Image")));
+            this.Red.Image = global::CentroCristiano.Properties.Resources.sig;
             this.Red.Location = new System.Drawing.Point(572, 166);
             this.Red.Name = "Red";
             this.Red.Size = new System.Drawing.Size(45, 45);
@@ -130,7 +131,7 @@
             // Lider
             // 
             this.Lider.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Lider.Image = ((System.Drawing.Image)(resources.GetObject("Lider.Image")));
+            this.Lider.Image = global::CentroCristiano.Properties.Resources.sig;
             this.Lider.Location = new System.Drawing.Point(572, 227);
             this.Lider.Name = "Lider";
             this.Lider.Size = new System.Drawing.Size(45, 45);
@@ -156,7 +157,7 @@
             this.Controls.Add(this.LiderLabel);
             this.Controls.Add(this.Red);
             this.Controls.Add(this.RedLabel);
-            this.Controls.Add(this.Pastores);
+            this.Controls.Add(this.Pastoresbutton);
             this.Controls.Add(this.PastoresLabel);
             this.Controls.Add(this.PanelLogos);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -180,7 +181,7 @@
         private System.Windows.Forms.PictureBox CCLogo;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label PastoresLabel;
-        private System.Windows.Forms.Button Pastores;
+        private System.Windows.Forms.Button Pastoresbutton;
         private System.Windows.Forms.Button Red;
         private System.Windows.Forms.Label RedLabel;
         private System.Windows.Forms.Button Lider;
