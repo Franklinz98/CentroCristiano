@@ -12,9 +12,12 @@ namespace CentroCristiano
 {
     public partial class InterfazPastores : Form
     {
+        public static String nombreusuario;
+
         public InterfazPastores()
         {
             InitializeComponent();
+            this.Text = "Plan Felipe Integral: " + Pastores.buscarNombre(LoginPastor.IdP);
         }
     }
 }

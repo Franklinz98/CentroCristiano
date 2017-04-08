@@ -75,6 +75,23 @@ namespace CentroCristiano
             }
 
         }
+        public static String buscarNombre(long id)
+        {
+            Pastor p = ptrpastores;
+            while (p.id != id && p.link != null)
+            {
+                p = p.link;
+            }
+            if (p.id == id)
+            {
+                return p.cargo + " " + p.nombre;
+            }
+            else
+            {
+                return "no esta";
+            }
+
+        }
         public Pastores()
         {
             ptrpastores = null;

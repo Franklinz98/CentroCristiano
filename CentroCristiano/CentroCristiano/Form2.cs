@@ -12,6 +12,8 @@ namespace CentroCristiano
 {
     public partial class LoginPastor : Form
     {
+        public static long IdP;
+        public static int pass;
         public LoginPastor()
         {
             InitializeComponent();
@@ -49,8 +51,8 @@ namespace CentroCristiano
 
         private void button1_Click(object sender, EventArgs e)
         {
-            long IdP = long.Parse(IDPastor.Text);
-            int pass = int.Parse(PassPastor.Text);
+            IdP = long.Parse(IDPastor.Text);
+            pass = int.Parse(PassPastor.Text);
 
             if (Pastores.buscarPastor(IdP, pass) == false)
             {
@@ -60,8 +62,9 @@ namespace CentroCristiano
             else
             {
                 InterfazPastores ventananueva = new InterfazPastores();
+                
                 ventananueva.Show();
-                this.Dispose();
+                this.Close();
             }
         }
 
