@@ -24,9 +24,10 @@
     <MapFileExtensions>true</MapFileExtensions>
     <TargetCulture>es-CO</TargetCulture>
     <ProductName>PFI Manager</ProductName>
-    <PublisherName>IDEE Technologies</PublisherName>
+    <PublisherName>IDEE Corporation</PublisherName>
     <SuiteName>Centro Cristiano Soft</SuiteName>
-    <ApplicationRevision>1</ApplicationRevision>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>3</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>true</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>

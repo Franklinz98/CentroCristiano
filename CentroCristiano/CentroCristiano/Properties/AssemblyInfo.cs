@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Centro Cristiano")]
 [assembly: AssemblyDescription("Data coordinator for the easy handling of information.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("IDEE Technologies")]
+[assembly: AssemblyCompany("IDEE Corporation")]
 [assembly: AssemblyProduct("PFI Manager")]
 [assembly: AssemblyCopyright("Copr. 2017")]
 [assembly: AssemblyTrademark("Plan Felipe Integral Application")]
