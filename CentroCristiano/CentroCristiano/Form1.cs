@@ -17,6 +17,7 @@ namespace CentroCristiano
         public Principal()
         {
             InitializeComponent();
+            Pastores pastores = new Pastores();
             BackColor = Components.GetBlanco();
             PanelLogos.BackColor = Components.GetVerdeOscuro();
             Diosbendice.ForeColor = Components.GetVeige();

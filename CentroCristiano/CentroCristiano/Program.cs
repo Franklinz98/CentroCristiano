@@ -16,7 +16,11 @@ namespace CentroCristiano
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Principal());
+            SplashScreenCC SS = new SplashScreenCC();
+            if (SS.ShowDialog() == DialogResult.OK) ;
+            {
+                Application.Run(new Principal());
+            }
         }
     }
 }

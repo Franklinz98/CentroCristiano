@@ -17,7 +17,7 @@ namespace CentroCristiano
         public InterfazPastores()
         {
             InitializeComponent();
-            //this.Text = "Plan Felipe Integral: " + Pastores.buscarNombre(LoginPastor.IdP);
+            this.Text = "Plan Felipe Integral: " + Pastores.buscarNombre(LoginPastor.IdP);
         }
     }
 }

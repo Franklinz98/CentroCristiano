@@ -62,7 +62,7 @@ namespace CentroCristiano
             else
             {
                 InterfazPastores ventananueva = new InterfazPastores();
-
+                
                 ventananueva.Show();
                 this.Close();
             }

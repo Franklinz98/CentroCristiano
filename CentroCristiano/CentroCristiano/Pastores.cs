@@ -47,9 +47,10 @@ namespace CentroCristiano
         void CargarPastor(String URL)
         {
             string linea;
-            
+            /*TextReader pastores;
+            pastores = new StreamReader("..\\..\\Resources\\inscriptos.txt");*/
             System.IO.StreamReader file =
-            new System.IO.StreamReader("..\\Pastores.txt");
+            new System.IO.StreamReader("..\\..\\Resources\\" + URL);
             while ((linea = file.ReadLine()) != null)
             {
                 String[] info = linea.Split(';');
