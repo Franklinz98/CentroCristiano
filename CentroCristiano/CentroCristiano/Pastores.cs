@@ -50,7 +50,7 @@ namespace CentroCristiano
             /*TextReader pastores;
             pastores = new StreamReader("..\\..\\Resources\\inscriptos.txt");*/
             System.IO.StreamReader file =
-            new System.IO.StreamReader("..\\..\\Resources\\" + URL);
+            new System.IO.StreamReader(URL);
             while ((linea = file.ReadLine()) != null)
             {
                 String[] info = linea.Split(';');
@@ -95,7 +95,7 @@ namespace CentroCristiano
         public Pastores()
         {
             ptrpastores = null;
-            CargarPastor("Pastores.txt");
+            CargarPastor("Pastores.ccad");
         }
     }
 }

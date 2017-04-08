@@ -58,6 +58,7 @@
             this.MaximumSize = new System.Drawing.Size(500, 296);
             this.MinimumSize = new System.Drawing.Size(500, 296);
             this.Name = "SplashScreenCC";
+            this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form4";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
