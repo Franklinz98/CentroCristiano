@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CentroCristiano
 {
-    public partial class Form3 : Form
+    public partial class InterfazPastores : Form
     {
-        public Form3()
+        public InterfazPastores()
         {
             InitializeComponent();
         }

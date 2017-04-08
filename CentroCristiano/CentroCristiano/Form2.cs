@@ -20,13 +20,18 @@ namespace CentroCristiano
             PassPastor.BackColor = Components.GetBlanco();
             IDPLabel.ForeColor = Components.GetBlanco();
             PSPLabel.ForeColor = Components.GetBlanco();
+            ISP.ForeColor = Components.GetBlanco();
+            ISP.BackColor = Components.GetVerdeOscuro();
+            ISP.FlatAppearance.BorderColor = Components.GetVerdeOscuro();
+            ISP.FlatAppearance.MouseDownBackColor = Components.GetVerdeClaro();
+            ISP.FlatAppearance.MouseOverBackColor = Components.GetVerde();
         }
 
         private void IDPastor_KeyPress(object sender, KeyPressEventArgs e)
         {
             Char c = e.KeyChar;
             int i = 0;
-            if ((int.TryParse(c.ToString(),out i)==false))
+            if ((int.TryParse(c.ToString(),out i)==false)&&(c!=(char)Keys.Back))
             {
                 e.Handled = true;
             }
@@ -36,7 +41,7 @@ namespace CentroCristiano
         {
             Char c = e.KeyChar;
             int i = 0;
-            if ((int.TryParse(c.ToString(), out i) == false))
+            if ((int.TryParse(c.ToString(), out i) == false) && (c != (char)Keys.Back))
             {
                 e.Handled = true;
             }
@@ -54,10 +59,15 @@ namespace CentroCristiano
             }
             else
             {
-                Form3 ventananueva = new Form3();
+                InterfazPastores ventananueva = new InterfazPastores();
                 ventananueva.Show();
                 this.Dispose();
             }
+        }
+
+        private void LoginPastor_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -66,6 +66,7 @@
             this.CCLogo.Size = new System.Drawing.Size(141, 90);
             this.CCLogo.TabIndex = 4;
             this.CCLogo.TabStop = false;
+            this.CCLogo.Click += new System.EventHandler(this.CCLogo_Click);
             // 
             // Diosbendice
             // 

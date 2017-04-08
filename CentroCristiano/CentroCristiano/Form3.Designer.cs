@@ -1,6 +1,6 @@
 ﻿namespace CentroCristiano
 {
-    partial class Form3
+    partial class InterfazPastores
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InterfazPastores));
+            this.SuspendLayout();
+            // 
+            // InterfazPastores
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form3";
+            this.ClientSize = new System.Drawing.Size(1008, 537);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MinimumSize = new System.Drawing.Size(1024, 576);
+            this.Name = "InterfazPastores";
+            this.Text = "Plan Felipe Integral";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

@@ -21,7 +21,7 @@ namespace CentroCristiano
             BackColor = Components.GetBlanco();
             PanelLogos.BackColor = Components.GetVerdeOscuro();
             Diosbendice.ForeColor = Components.GetVeige();
-            Diosbendice.Text = "¡Dios bendice tu " + CultureInfo.CurrentCulture.TextInfo.ToTitleCase(DateTime.Today.ToString("dddd", new CultureInfo("es-ES"))) + "!";
+            Diosbendice.Text = "¡Dios bendice tu " + CultureInfo.CurrentCulture.TextInfo.ToTitleCase(DateTime.Today.ToString("dddd", new CultureInfo("es-CO"))) + "!";
             PastoresLabel.BackColor = Components.GetVerdeOscuro();
             PastoresLabel.ForeColor = Components.GetBlanco();
             Pastoresbutton.BackColor = Components.GetVerdeOscuro();
@@ -46,6 +46,12 @@ namespace CentroCristiano
         {
             LoginPastor LoginP = new LoginPastor();
             LoginP.Show();
+        }
+
+        private void CCLogo_Click(object sender, EventArgs e)
+        {
+            Acercadebox Ayuda = new Acercadebox();
+            Ayuda.Show();
         }
     }
 }
