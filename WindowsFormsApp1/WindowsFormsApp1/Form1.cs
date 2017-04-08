@@ -8,16 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CentroCristiano
+namespace WindowsFormsApp1
 {
-    public partial class InterfazPastores : Form
+    public partial class Form1 : Form
     {
-        public static String nombreusuario;
-
-        public InterfazPastores()
+        public Form1()
         {
             InitializeComponent();
-            //this.Text = "Plan Felipe Integral: " + Pastores.buscarNombre(LoginPastor.IdP);
         }
     }
 }
