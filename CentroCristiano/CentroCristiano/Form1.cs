@@ -53,5 +53,11 @@ namespace CentroCristiano
             Acercadebox Ayuda = new Acercadebox();
             Ayuda.Show();
         }
+
+        private void Lider_Click(object sender, EventArgs e)
+        {
+            InterfazLider lider = new InterfazLider();
+            lider.Show();
+        }
     }
 }

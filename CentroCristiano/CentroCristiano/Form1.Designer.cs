@@ -51,6 +51,7 @@
             this.PanelLogos.Controls.Add(this.CCLogo);
             this.PanelLogos.Controls.Add(this.Diosbendice);
             this.PanelLogos.Controls.Add(this.pictureBox1);
+            this.PanelLogos.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.PanelLogos.Location = new System.Drawing.Point(0, 392);
             this.PanelLogos.MinimumSize = new System.Drawing.Size(1008, 145);
             this.PanelLogos.Name = "PanelLogos";
@@ -138,6 +139,7 @@
             this.Lider.Size = new System.Drawing.Size(45, 45);
             this.Lider.TabIndex = 6;
             this.Lider.UseVisualStyleBackColor = true;
+            this.Lider.Click += new System.EventHandler(this.Lider_Click);
             // 
             // LiderLabel
             // 
