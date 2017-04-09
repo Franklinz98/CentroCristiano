@@ -72,12 +72,13 @@
             // Diosbendice
             // 
             this.Diosbendice.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Diosbendice.Location = new System.Drawing.Point(413, 64);
-            this.Diosbendice.MaximumSize = new System.Drawing.Size(183, 16);
-            this.Diosbendice.MinimumSize = new System.Drawing.Size(183, 16);
+            this.Diosbendice.Location = new System.Drawing.Point(379, 64);
+            this.Diosbendice.MaximumSize = new System.Drawing.Size(250, 16);
+            this.Diosbendice.MinimumSize = new System.Drawing.Size(250, 16);
             this.Diosbendice.Name = "Diosbendice";
-            this.Diosbendice.Size = new System.Drawing.Size(183, 16);
+            this.Diosbendice.Size = new System.Drawing.Size(250, 16);
             this.Diosbendice.TabIndex = 3;
+            this.Diosbendice.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox1
             // 
@@ -119,6 +120,7 @@
             this.Red.Size = new System.Drawing.Size(45, 45);
             this.Red.TabIndex = 4;
             this.Red.UseVisualStyleBackColor = true;
+            this.Red.Click += new System.EventHandler(this.Red_Click);
             // 
             // RedLabel
             // 

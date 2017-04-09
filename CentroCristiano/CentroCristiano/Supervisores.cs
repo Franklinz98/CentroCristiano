@@ -8,23 +8,23 @@ using System.IO;
 namespace CentroCristiano
 {
     
-    class Pastores
+    class Supervisores
     {
         
-        class Pastor
+        class Supervisor
         {
             public String nombre;
             public String cargo;
             public long id;
             public int pass;
-            public Pastor link;
+            public Supervisor link;
         }
 
-        static Pastor ptrpastores;
+        static Supervisor ptrsupervisores;
 
-        Pastor AgregarPastores(Pastor ptr, String nombre, String cargo, long id, int pass)
+        Supervisor AgregarSupervisores(Supervisor ptr, String nombre, String cargo, long id, int pass)
         {
-            Pastor p = new Pastor();
+            Supervisor p = new Supervisor();
             p.nombre = nombre;
             p.cargo = cargo;
             p.id = id;
@@ -35,7 +35,7 @@ namespace CentroCristiano
             }
             else
             {
-                Pastor q = ptr;
+                Supervisor q = ptr;
                 while (q.link!=null)
                 {
                     q = q.link;
@@ -44,7 +44,7 @@ namespace CentroCristiano
             }
             return ptr;
         }
-        void CargarPastor(String URL)
+        void CargarSupervisor(String URL)
         {
             string linea;
             System.IO.StreamReader file =
@@ -52,12 +52,12 @@ namespace CentroCristiano
             while ((linea = file.ReadLine()) != null)
             {
                 String[] info = linea.Split(';');
-                ptrpastores = AgregarPastores(ptrpastores,info[0],info[1],long.Parse(info[2]),int.Parse(info[3]));
+                ptrsupervisores = AgregarSupervisores(ptrsupervisores,info[0],info[1],long.Parse(info[2]),int.Parse(info[3]));
             }
         }
-        public static bool buscarPastor(long id, int clave)
+        public static bool buscarSupervisor(long id, int clave)
         {
-            Pastor p = ptrpastores;
+            Supervisor p = ptrsupervisores;
             while ((p.id != id && p.pass != clave) && p.link != null)
             {
                 p = p.link;
@@ -74,7 +74,7 @@ namespace CentroCristiano
         }
         public static String buscarNombre(long id)
         {
-            Pastor p = ptrpastores;
+            Supervisor p = ptrsupervisores;
             while (p.id != id && p.link != null)
             {
                 p = p.link;
@@ -85,14 +85,14 @@ namespace CentroCristiano
             }
             else
             {
-                return "no esta";
+                return "";
             }
 
         }
-        public Pastores()
+        public Supervisores()
         {
-            ptrpastores = null;
-            CargarPastor("Pastores.ccad");
+            ptrsupervisores = null;
+            CargarSupervisor("Supervisores.ccad");
         }
     }
 }

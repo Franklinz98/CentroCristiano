@@ -8,23 +8,23 @@ using System.IO;
 namespace CentroCristiano
 {
     
-    class Pastores
+    class Lideres
     {
         
-        class Pastor
+        public class Lider
         {
             public String nombre;
             public String cargo;
             public long id;
             public int pass;
-            public Pastor link;
+            public Lider link;
         }
 
-        static Pastor ptrpastores;
+        public static Lider ptrlider;
 
-        Pastor AgregarPastores(Pastor ptr, String nombre, String cargo, long id, int pass)
+        Lider AgregarLideres(Lider ptr, String nombre, String cargo, long id, int pass)
         {
-            Pastor p = new Pastor();
+            Lider p = new Lider();
             p.nombre = nombre;
             p.cargo = cargo;
             p.id = id;
@@ -35,7 +35,7 @@ namespace CentroCristiano
             }
             else
             {
-                Pastor q = ptr;
+                Lider q = ptr;
                 while (q.link!=null)
                 {
                     q = q.link;
@@ -52,12 +52,12 @@ namespace CentroCristiano
             while ((linea = file.ReadLine()) != null)
             {
                 String[] info = linea.Split(';');
-                ptrpastores = AgregarPastores(ptrpastores,info[0],info[1],long.Parse(info[2]),int.Parse(info[3]));
+                ptrlider = AgregarLideres(ptrlider,info[0],info[1],long.Parse(info[2]),int.Parse(info[3]));
             }
         }
-        public static bool buscarPastor(long id, int clave)
+        public static bool BuscarLider(long id, int clave)
         {
-            Pastor p = ptrpastores;
+            Lider p = ptrlider;
             while ((p.id != id && p.pass != clave) && p.link != null)
             {
                 p = p.link;
@@ -72,9 +72,27 @@ namespace CentroCristiano
             }
 
         }
-        public static String buscarNombre(long id)
+        public static Lider BuscarLider(long id)
         {
-            Pastor p = ptrpastores;
+            Lider p = ptrlider;
+            while ((p.id != id) && p.link != null)
+            {
+                p = p.link;
+            }
+            if (p.id == id)
+            {
+                p.link = null;
+                return p;
+            }
+            else
+            {
+                return null;
+            }
+
+        }
+        public static String BuscarNombre(long id)
+        {
+            Lider p = ptrlider;
             while (p.id != id && p.link != null)
             {
                 p = p.link;
@@ -89,10 +107,34 @@ namespace CentroCristiano
             }
 
         }
-        public Pastores()
+
+        public static Lider AgregarLideres(Lider ptr, string lideres)
         {
-            ptrpastores = null;
-            CargarPastor("Pastores.ccad");
+            string[] lid = lideres.Split(',');
+            foreach (string id in lid)
+            {
+                Lider p = BuscarLider(long.Parse(id));
+                if (ptr == null)
+                {
+                    ptr = p;
+                }
+                else
+                {
+                    Lider q = ptr;
+                    while (q.link != null)
+                    {
+                        q = q.link;
+                    }
+                    q.link = p;
+                }
+            }
+            return ptr;
+        }
+
+        public Lideres()
+        {
+            ptrlider = null;
+            CargarPastor("Lideres.ccad");
         }
     }
 }

@@ -49,7 +49,7 @@ namespace CentroCristiano
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void ISP_Click(object sender, EventArgs e)
         {
             IdP = long.Parse(IDPastor.Text);
             pass = int.Parse(PassPastor.Text);
@@ -57,7 +57,6 @@ namespace CentroCristiano
             if (Pastores.buscarPastor(IdP, pass) == false)
             {
                 this.Close();
-
             }
             else
             {
@@ -65,11 +64,6 @@ namespace CentroCristiano
                 ventananueva.Show();
                 this.Close();
             }
-        }
-
-        private void LoginPastor_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

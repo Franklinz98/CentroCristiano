@@ -17,6 +17,8 @@ namespace CentroCristiano
         public Principal()
         {
             InitializeComponent();
+            Lideres lideres = new Lideres();
+            Supervisores supervisores = new Supervisores();
             Pastores pastores = new Pastores();
             BackColor = Components.GetBlanco();
             PanelLogos.BackColor = Components.GetVerdeOscuro();
@@ -42,22 +44,29 @@ namespace CentroCristiano
             Lider.FlatAppearance.MouseOverBackColor = Components.GetVerde();
         }
 
-        private void Pastores_Click(object sender, EventArgs e)
-        {
-            LoginPastor LoginP = new LoginPastor();
-            LoginP.Show();
-        }
-
         private void CCLogo_Click(object sender, EventArgs e)
         {
             Acercadebox Ayuda = new Acercadebox();
             Ayuda.Show();
         }
 
+        private void Pastores_Click(object sender, EventArgs e)
+        {
+            LoginPastor LoginP = new LoginPastor();
+            LoginP.Show();
+        }
+
+
         private void Lider_Click(object sender, EventArgs e)
         {
-            InterfazLider lider = new InterfazLider();
+            InicioLider lider = new InicioLider();
             lider.Show();
+        }
+
+        private void Red_Click(object sender, EventArgs e)
+        {
+            InicioSupervisor supervisor = new InicioSupervisor();
+            supervisor.Show();
         }
     }
 }

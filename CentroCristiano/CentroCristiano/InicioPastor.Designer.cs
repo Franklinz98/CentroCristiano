@@ -41,7 +41,7 @@
             // IDPastor
             // 
             this.IDPastor.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IDPastor.Location = new System.Drawing.Point(273, 60);
+            this.IDPastor.Location = new System.Drawing.Point(267, 59);
             this.IDPastor.MaxLength = 10;
             this.IDPastor.Name = "IDPastor";
             this.IDPastor.Size = new System.Drawing.Size(200, 20);
@@ -52,7 +52,7 @@
             // PassPastor
             // 
             this.PassPastor.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.PassPastor.Location = new System.Drawing.Point(273, 108);
+            this.PassPastor.Location = new System.Drawing.Point(267, 107);
             this.PassPastor.MaxLength = 6;
             this.PassPastor.Name = "PassPastor";
             this.PassPastor.PasswordChar = '•';
@@ -64,7 +64,7 @@
             // 
             // IDPLabel
             // 
-            this.IDPLabel.Location = new System.Drawing.Point(192, 60);
+            this.IDPLabel.Location = new System.Drawing.Point(186, 59);
             this.IDPLabel.MaximumSize = new System.Drawing.Size(75, 20);
             this.IDPLabel.MinimumSize = new System.Drawing.Size(75, 20);
             this.IDPLabel.Name = "IDPLabel";
@@ -75,7 +75,7 @@
             // 
             // PSPLabel
             // 
-            this.PSPLabel.Location = new System.Drawing.Point(192, 108);
+            this.PSPLabel.Location = new System.Drawing.Point(186, 107);
             this.PSPLabel.MaximumSize = new System.Drawing.Size(75, 20);
             this.PSPLabel.MinimumSize = new System.Drawing.Size(75, 20);
             this.PSPLabel.Name = "PSPLabel";
@@ -87,7 +87,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::CentroCristiano.Properties.Resources.User;
-            this.pictureBox1.Location = new System.Drawing.Point(32, 50);
+            this.pictureBox1.Location = new System.Drawing.Point(26, 49);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(137, 140);
             this.pictureBox1.TabIndex = 4;
@@ -96,13 +96,13 @@
             // ISP
             // 
             this.ISP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ISP.Location = new System.Drawing.Point(295, 156);
+            this.ISP.Location = new System.Drawing.Point(289, 155);
             this.ISP.Name = "ISP";
             this.ISP.Size = new System.Drawing.Size(80, 23);
             this.ISP.TabIndex = 5;
             this.ISP.Text = "Iniciar Sesión";
             this.ISP.UseVisualStyleBackColor = true;
-            this.ISP.Click += new System.EventHandler(this.button1_Click);
+            this.ISP.Click += new System.EventHandler(this.ISP_Click);
             // 
             // LoginPastor
             // 
@@ -115,12 +115,15 @@
             this.Controls.Add(this.PassPastor);
             this.Controls.Add(this.IDPastor);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(510, 300);
+            this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(510, 300);
             this.Name = "LoginPastor";
+            this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Iniciar Sesión";
-            this.Load += new System.EventHandler(this.LoginPastor_Load);
+            this.TopMost = true;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
