@@ -85,62 +85,62 @@
             this.FinancieroLabel = new System.Windows.Forms.Label();
             this.DatosTab = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
-            this.ReporteLabel = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
-            this.ParticipacionLabel = new System.Windows.Forms.Label();
-            this.AsistenciaDLabel = new System.Windows.Forms.Label();
-            this.AsistenciaDatosLabel = new System.Windows.Forms.Label();
-            this.DatosLabel = new System.Windows.Forms.Label();
             this.MALabel = new System.Windows.Forms.Label();
             this.ConsolidacionLabel = new System.Windows.Forms.Label();
             this.DiscipuladoLabel = new System.Windows.Forms.Label();
+            this.Consolidacion = new System.Windows.Forms.TextBox();
+            this.MA = new System.Windows.Forms.TextBox();
+            this.Discipulado = new System.Windows.Forms.TextBox();
+            this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
+            this.AsistenciaDatosLabel = new System.Windows.Forms.Label();
+            this.VEALabel = new System.Windows.Forms.Label();
+            this.ELLabel = new System.Windows.Forms.Label();
+            this.VEA = new System.Windows.Forms.TextBox();
+            this.EL = new System.Windows.Forms.TextBox();
+            this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
             this.HermanosLabel = new System.Windows.Forms.Label();
             this.AmigosDLabel = new System.Windows.Forms.Label();
             this.NinosDLabel = new System.Windows.Forms.Label();
-            this.VEALabel = new System.Windows.Forms.Label();
-            this.ELLabel = new System.Windows.Forms.Label();
+            this.HermanosD = new System.Windows.Forms.TextBox();
+            this.AmigosD = new System.Windows.Forms.TextBox();
+            this.NinosD = new System.Windows.Forms.TextBox();
+            this.ParticipacionLabel = new System.Windows.Forms.Label();
+            this.AsistenciaDLabel = new System.Windows.Forms.Label();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.FLLabel = new System.Windows.Forms.Label();
             this.AsistenteLabel = new System.Windows.Forms.Label();
             this.AnfitrionLabel = new System.Windows.Forms.Label();
             this.MNLabel = new System.Windows.Forms.Label();
             this.DTLabel = new System.Windows.Forms.Label();
             this.DHLabel = new System.Windows.Forms.Label();
-            this.ObservacionesLabel = new System.Windows.Forms.Label();
             this.tableLayoutPanel11 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
-            this.Consolidacion = new System.Windows.Forms.TextBox();
-            this.MA = new System.Windows.Forms.TextBox();
-            this.Discipulado = new System.Windows.Forms.TextBox();
-            this.Hermanos = new System.Windows.Forms.TextBox();
-            this.AmigosD = new System.Windows.Forms.TextBox();
-            this.NinosD = new System.Windows.Forms.TextBox();
-            this.VEA = new System.Windows.Forms.TextBox();
-            this.EL = new System.Windows.Forms.TextBox();
-            this.FL = new System.Windows.Forms.TextBox();
-            this.Asistente = new System.Windows.Forms.TextBox();
-            this.Anfitrion = new System.Windows.Forms.TextBox();
-            this.MN = new System.Windows.Forms.TextBox();
             this.Direccion = new System.Windows.Forms.TextBox();
             this.Telefono = new System.Windows.Forms.TextBox();
+            this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
             this.diaD = new System.Windows.Forms.TextBox();
             this.mesD = new System.Windows.Forms.TextBox();
             this.anoD = new System.Windows.Forms.TextBox();
             this.hora = new System.Windows.Forms.TextBox();
             this.min = new System.Windows.Forms.TextBox();
-            this.Observaciones = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.Botones = new System.Windows.Forms.Panel();
-            this.Enviar = new System.Windows.Forms.Button();
-            this.Datosbutton = new System.Windows.Forms.Button();
-            this.Datos = new System.Windows.Forms.Label();
-            this.ISGBbutton = new System.Windows.Forms.Button();
+            this.FL = new System.Windows.Forms.TextBox();
+            this.Asistente = new System.Windows.Forms.TextBox();
+            this.Anfitrion = new System.Windows.Forms.TextBox();
+            this.MN = new System.Windows.Forms.TextBox();
+            this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
+            this.ObservacionesLabel = new System.Windows.Forms.Label();
+            this.Observaciones = new System.Windows.Forms.TextBox();
+            this.ReporteLabel = new System.Windows.Forms.Label();
+            this.DatosLabel = new System.Windows.Forms.Label();
             this.ISGB = new System.Windows.Forms.Label();
+            this.ISGBbutton = new System.Windows.Forms.Button();
+            this.Datos = new System.Windows.Forms.Label();
+            this.Datosbutton = new System.Windows.Forms.Button();
+            this.Enviar = new System.Windows.Forms.Button();
+            this.Botones = new System.Windows.Forms.Panel();
             this.Formulario.SuspendLayout();
             this.ISGBTab.SuspendLayout();
             this.TableISGB.SuspendLayout();
@@ -153,15 +153,15 @@
             this.IFinanciero.SuspendLayout();
             this.DatosTab.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
-            this.tableLayoutPanel3.SuspendLayout();
-            this.tableLayoutPanel4.SuspendLayout();
-            this.tableLayoutPanel7.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel8.SuspendLayout();
             this.tableLayoutPanel9.SuspendLayout();
             this.tableLayoutPanel10.SuspendLayout();
+            this.tableLayoutPanel3.SuspendLayout();
+            this.tableLayoutPanel4.SuspendLayout();
             this.tableLayoutPanel11.SuspendLayout();
             this.tableLayoutPanel12.SuspendLayout();
+            this.tableLayoutPanel7.SuspendLayout();
             this.Botones.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -281,6 +281,8 @@
             this.dia.Size = new System.Drawing.Size(48, 30);
             this.dia.TabIndex = 3;
             this.dia.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.dia.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.dia.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Numeros_KeyPress);
             // 
             // mes
             // 
@@ -293,18 +295,22 @@
             this.mes.Size = new System.Drawing.Size(48, 30);
             this.mes.TabIndex = 4;
             this.mes.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.mes.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.mes.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Numeros_KeyPress);
             // 
             // anno
             // 
             this.anno.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.anno.Dock = System.Windows.Forms.DockStyle.Fill;
             this.anno.Location = new System.Drawing.Point(726, 17);
-            this.anno.MaxLength = 2;
+            this.anno.MaxLength = 4;
             this.anno.Multiline = true;
             this.anno.Name = "anno";
             this.anno.Size = new System.Drawing.Size(50, 30);
             this.anno.TabIndex = 5;
             this.anno.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.anno.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.anno.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Numeros_KeyPress);
             // 
             // InformacionGB
             // 
@@ -378,37 +384,49 @@
             // 
             this.PastorS.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PastorS.Location = new System.Drawing.Point(3, 17);
+            this.PastorS.MaxLength = 20;
             this.PastorS.Multiline = true;
             this.PastorS.Name = "PastorS";
             this.PastorS.Size = new System.Drawing.Size(383, 42);
             this.PastorS.TabIndex = 4;
+            this.PastorS.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.PastorS.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Texto_KeyPress);
             // 
             // Coordinador
             // 
             this.Coordinador.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Coordinador.Location = new System.Drawing.Point(392, 17);
+            this.Coordinador.MaxLength = 20;
             this.Coordinador.Multiline = true;
             this.Coordinador.Name = "Coordinador";
             this.Coordinador.Size = new System.Drawing.Size(384, 42);
             this.Coordinador.TabIndex = 5;
+            this.Coordinador.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.Coordinador.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Texto_KeyPress);
             // 
             // SdeR
             // 
             this.SdeR.Dock = System.Windows.Forms.DockStyle.Fill;
             this.SdeR.Location = new System.Drawing.Point(3, 82);
+            this.SdeR.MaxLength = 20;
             this.SdeR.Multiline = true;
             this.SdeR.Name = "SdeR";
             this.SdeR.Size = new System.Drawing.Size(383, 36);
             this.SdeR.TabIndex = 6;
+            this.SdeR.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.SdeR.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Texto_KeyPress);
             // 
             // FelipeG
             // 
             this.FelipeG.Dock = System.Windows.Forms.DockStyle.Fill;
             this.FelipeG.Location = new System.Drawing.Point(392, 82);
+            this.FelipeG.MaxLength = 20;
             this.FelipeG.Multiline = true;
             this.FelipeG.Name = "FelipeG";
             this.FelipeG.Size = new System.Drawing.Size(384, 36);
             this.FelipeG.TabIndex = 7;
+            this.FelipeG.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.FelipeG.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Texto_KeyPress);
             // 
             // InformacionGB2
             // 
@@ -455,20 +473,26 @@
             // 
             this.Codigo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Codigo.Location = new System.Drawing.Point(3, 23);
+            this.Codigo.MaxLength = 4;
             this.Codigo.Multiline = true;
             this.Codigo.Name = "Codigo";
             this.Codigo.Size = new System.Drawing.Size(81, 53);
             this.Codigo.TabIndex = 2;
             this.Codigo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Codigo.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.Codigo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Numeros_KeyPress);
             // 
             // NombreG
             // 
             this.NombreG.Dock = System.Windows.Forms.DockStyle.Fill;
             this.NombreG.Location = new System.Drawing.Point(90, 23);
+            this.NombreG.MaxLength = 120;
             this.NombreG.Multiline = true;
             this.NombreG.Name = "NombreG";
             this.NombreG.Size = new System.Drawing.Size(686, 53);
             this.NombreG.TabIndex = 3;
+            this.NombreG.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.NombreG.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Texto_KeyPress);
             // 
             // Asistencia
             // 
@@ -578,6 +602,8 @@
             this.Felipes.Size = new System.Drawing.Size(148, 39);
             this.Felipes.TabIndex = 5;
             this.Felipes.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Felipes.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.Felipes.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Numeros_KeyPress);
             // 
             // Etiopes
             // 
@@ -589,6 +615,8 @@
             this.Etiopes.Size = new System.Drawing.Size(148, 39);
             this.Etiopes.TabIndex = 6;
             this.Etiopes.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Etiopes.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.Etiopes.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Numeros_KeyPress);
             // 
             // Amigos
             // 
@@ -600,6 +628,8 @@
             this.Amigos.Size = new System.Drawing.Size(148, 39);
             this.Amigos.TabIndex = 7;
             this.Amigos.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Amigos.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.Amigos.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Numeros_KeyPress);
             // 
             // Ninos
             // 
@@ -611,6 +641,8 @@
             this.Ninos.Size = new System.Drawing.Size(148, 39);
             this.Ninos.TabIndex = 8;
             this.Ninos.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Ninos.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.Ninos.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Numeros_KeyPress);
             // 
             // Ausentes
             // 
@@ -622,6 +654,8 @@
             this.Ausentes.Size = new System.Drawing.Size(151, 39);
             this.Ausentes.TabIndex = 9;
             this.Ausentes.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Ausentes.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.Ausentes.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Numeros_KeyPress);
             // 
             // tableLayoutPanel6
             // 
@@ -701,6 +735,8 @@
             this.Visitas.Size = new System.Drawing.Size(187, 40);
             this.Visitas.TabIndex = 4;
             this.Visitas.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Visitas.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.Visitas.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Numeros_KeyPress);
             // 
             // ConversionA
             // 
@@ -712,6 +748,8 @@
             this.ConversionA.Size = new System.Drawing.Size(187, 40);
             this.ConversionA.TabIndex = 5;
             this.ConversionA.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.ConversionA.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.ConversionA.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Numeros_KeyPress);
             // 
             // ConversionN
             // 
@@ -723,6 +761,8 @@
             this.ConversionN.Size = new System.Drawing.Size(187, 40);
             this.ConversionN.TabIndex = 6;
             this.ConversionN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.ConversionN.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.ConversionN.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Numeros_KeyPress);
             // 
             // Reconciliados
             // 
@@ -734,6 +774,8 @@
             this.Reconciliados.Size = new System.Drawing.Size(188, 40);
             this.Reconciliados.TabIndex = 7;
             this.Reconciliados.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Reconciliados.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.Reconciliados.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Numeros_KeyPress);
             // 
             // IFinanciero
             // 
@@ -793,21 +835,27 @@
             // 
             this.Diezmo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Diezmo.Location = new System.Drawing.Point(3, 23);
+            this.Diezmo.MaxLength = 6;
             this.Diezmo.Multiline = true;
             this.Diezmo.Name = "Diezmo";
             this.Diezmo.Size = new System.Drawing.Size(253, 37);
             this.Diezmo.TabIndex = 3;
             this.Diezmo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Diezmo.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.Diezmo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Numeros_KeyPress);
             // 
             // Ofrenda
             // 
             this.Ofrenda.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Ofrenda.Location = new System.Drawing.Point(262, 23);
+            this.Ofrenda.MaxLength = 6;
             this.Ofrenda.Multiline = true;
             this.Ofrenda.Name = "Ofrenda";
             this.Ofrenda.Size = new System.Drawing.Size(253, 37);
             this.Ofrenda.TabIndex = 4;
             this.Ofrenda.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Ofrenda.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.Ofrenda.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Numeros_KeyPress);
             // 
             // Total
             // 
@@ -815,6 +863,7 @@
             this.Total.Location = new System.Drawing.Point(521, 23);
             this.Total.Multiline = true;
             this.Total.Name = "Total";
+            this.Total.ReadOnly = true;
             this.Total.Size = new System.Drawing.Size(255, 37);
             this.Total.TabIndex = 5;
             this.Total.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -875,6 +924,316 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(975, 523);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
+            // tableLayoutPanel2
+            // 
+            this.tableLayoutPanel2.ColumnCount = 1;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 779F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel8, 0, 1);
+            this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel9, 0, 4);
+            this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel10, 0, 3);
+            this.tableLayoutPanel2.Controls.Add(this.ParticipacionLabel, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.AsistenciaDLabel, 0, 2);
+            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(193, 22);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 5;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21.25F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 78.75F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 16F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 66F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 61F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(779, 233);
+            this.tableLayoutPanel2.TabIndex = 0;
+            // 
+            // tableLayoutPanel8
+            // 
+            this.tableLayoutPanel8.ColumnCount = 3;
+            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel8.Controls.Add(this.MALabel, 0, 0);
+            this.tableLayoutPanel8.Controls.Add(this.ConsolidacionLabel, 1, 0);
+            this.tableLayoutPanel8.Controls.Add(this.DiscipuladoLabel, 2, 0);
+            this.tableLayoutPanel8.Controls.Add(this.Consolidacion, 1, 1);
+            this.tableLayoutPanel8.Controls.Add(this.MA, 0, 1);
+            this.tableLayoutPanel8.Controls.Add(this.Discipulado, 2, 1);
+            this.tableLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel8.Location = new System.Drawing.Point(3, 22);
+            this.tableLayoutPanel8.Name = "tableLayoutPanel8";
+            this.tableLayoutPanel8.RowCount = 2;
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 17F));
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel8.Size = new System.Drawing.Size(773, 64);
+            this.tableLayoutPanel8.TabIndex = 0;
+            // 
+            // MALabel
+            // 
+            this.MALabel.AutoSize = true;
+            this.MALabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.MALabel.Location = new System.Drawing.Point(3, 0);
+            this.MALabel.Name = "MALabel";
+            this.MALabel.Size = new System.Drawing.Size(251, 17);
+            this.MALabel.TabIndex = 0;
+            this.MALabel.Text = "Misión Amigo";
+            this.MALabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // ConsolidacionLabel
+            // 
+            this.ConsolidacionLabel.AutoSize = true;
+            this.ConsolidacionLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ConsolidacionLabel.Location = new System.Drawing.Point(260, 0);
+            this.ConsolidacionLabel.Name = "ConsolidacionLabel";
+            this.ConsolidacionLabel.Size = new System.Drawing.Size(251, 17);
+            this.ConsolidacionLabel.TabIndex = 1;
+            this.ConsolidacionLabel.Text = "Consolidación";
+            this.ConsolidacionLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // DiscipuladoLabel
+            // 
+            this.DiscipuladoLabel.AutoSize = true;
+            this.DiscipuladoLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.DiscipuladoLabel.Location = new System.Drawing.Point(517, 0);
+            this.DiscipuladoLabel.Name = "DiscipuladoLabel";
+            this.DiscipuladoLabel.Size = new System.Drawing.Size(253, 17);
+            this.DiscipuladoLabel.TabIndex = 2;
+            this.DiscipuladoLabel.Text = "Discipulado 1";
+            this.DiscipuladoLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Consolidacion
+            // 
+            this.Consolidacion.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Consolidacion.Location = new System.Drawing.Point(260, 20);
+            this.Consolidacion.MaxLength = 2;
+            this.Consolidacion.Multiline = true;
+            this.Consolidacion.Name = "Consolidacion";
+            this.Consolidacion.Size = new System.Drawing.Size(251, 41);
+            this.Consolidacion.TabIndex = 3;
+            this.Consolidacion.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Consolidacion.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.Consolidacion.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Numeros_KeyPress);
+            // 
+            // MA
+            // 
+            this.MA.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.MA.Location = new System.Drawing.Point(3, 20);
+            this.MA.MaxLength = 2;
+            this.MA.Multiline = true;
+            this.MA.Name = "MA";
+            this.MA.Size = new System.Drawing.Size(251, 41);
+            this.MA.TabIndex = 4;
+            this.MA.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.MA.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.MA.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Numeros_KeyPress);
+            // 
+            // Discipulado
+            // 
+            this.Discipulado.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Discipulado.Location = new System.Drawing.Point(517, 20);
+            this.Discipulado.MaxLength = 2;
+            this.Discipulado.Multiline = true;
+            this.Discipulado.Name = "Discipulado";
+            this.Discipulado.Size = new System.Drawing.Size(253, 41);
+            this.Discipulado.TabIndex = 5;
+            this.Discipulado.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Discipulado.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.Discipulado.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Numeros_KeyPress);
+            // 
+            // tableLayoutPanel9
+            // 
+            this.tableLayoutPanel9.ColumnCount = 3;
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel9.Controls.Add(this.AsistenciaDatosLabel, 0, 0);
+            this.tableLayoutPanel9.Controls.Add(this.VEALabel, 1, 0);
+            this.tableLayoutPanel9.Controls.Add(this.ELLabel, 2, 0);
+            this.tableLayoutPanel9.Controls.Add(this.VEA, 1, 1);
+            this.tableLayoutPanel9.Controls.Add(this.EL, 2, 1);
+            this.tableLayoutPanel9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel9.Location = new System.Drawing.Point(3, 174);
+            this.tableLayoutPanel9.Name = "tableLayoutPanel9";
+            this.tableLayoutPanel9.RowCount = 2;
+            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 32.14286F));
+            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 67.85714F));
+            this.tableLayoutPanel9.Size = new System.Drawing.Size(773, 56);
+            this.tableLayoutPanel9.TabIndex = 1;
+            // 
+            // AsistenciaDatosLabel
+            // 
+            this.AsistenciaDatosLabel.AutoSize = true;
+            this.AsistenciaDatosLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.AsistenciaDatosLabel.Location = new System.Drawing.Point(3, 0);
+            this.AsistenciaDatosLabel.Name = "AsistenciaDatosLabel";
+            this.AsistenciaDatosLabel.Size = new System.Drawing.Size(251, 18);
+            this.AsistenciaDatosLabel.TabIndex = 0;
+            this.AsistenciaDatosLabel.Text = "ASISTENCIA";
+            this.AsistenciaDatosLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // VEALabel
+            // 
+            this.VEALabel.AutoSize = true;
+            this.VEALabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.VEALabel.Location = new System.Drawing.Point(260, 0);
+            this.VEALabel.Name = "VEALabel";
+            this.VEALabel.Size = new System.Drawing.Size(251, 18);
+            this.VEALabel.TabIndex = 1;
+            this.VEALabel.Text = "V.E.A";
+            this.VEALabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // ELLabel
+            // 
+            this.ELLabel.AutoSize = true;
+            this.ELLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ELLabel.Location = new System.Drawing.Point(517, 0);
+            this.ELLabel.Name = "ELLabel";
+            this.ELLabel.Size = new System.Drawing.Size(253, 18);
+            this.ELLabel.TabIndex = 2;
+            this.ELLabel.Text = "ESCUELA DE LIDERAZGO";
+            this.ELLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // VEA
+            // 
+            this.VEA.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.VEA.Location = new System.Drawing.Point(260, 21);
+            this.VEA.MaxLength = 2;
+            this.VEA.Multiline = true;
+            this.VEA.Name = "VEA";
+            this.VEA.Size = new System.Drawing.Size(251, 32);
+            this.VEA.TabIndex = 4;
+            this.VEA.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.VEA.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.VEA.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Numeros_KeyPress);
+            // 
+            // EL
+            // 
+            this.EL.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.EL.Location = new System.Drawing.Point(517, 21);
+            this.EL.MaxLength = 2;
+            this.EL.Multiline = true;
+            this.EL.Name = "EL";
+            this.EL.Size = new System.Drawing.Size(253, 32);
+            this.EL.TabIndex = 5;
+            this.EL.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.EL.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.EL.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Numeros_KeyPress);
+            // 
+            // tableLayoutPanel10
+            // 
+            this.tableLayoutPanel10.ColumnCount = 3;
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel10.Controls.Add(this.HermanosLabel, 0, 0);
+            this.tableLayoutPanel10.Controls.Add(this.AmigosDLabel, 1, 0);
+            this.tableLayoutPanel10.Controls.Add(this.NinosDLabel, 2, 0);
+            this.tableLayoutPanel10.Controls.Add(this.HermanosD, 0, 1);
+            this.tableLayoutPanel10.Controls.Add(this.AmigosD, 1, 1);
+            this.tableLayoutPanel10.Controls.Add(this.NinosD, 2, 1);
+            this.tableLayoutPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel10.Location = new System.Drawing.Point(3, 108);
+            this.tableLayoutPanel10.Name = "tableLayoutPanel10";
+            this.tableLayoutPanel10.RowCount = 2;
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 66.66666F));
+            this.tableLayoutPanel10.Size = new System.Drawing.Size(773, 60);
+            this.tableLayoutPanel10.TabIndex = 2;
+            // 
+            // HermanosLabel
+            // 
+            this.HermanosLabel.AutoSize = true;
+            this.HermanosLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.HermanosLabel.Location = new System.Drawing.Point(3, 0);
+            this.HermanosLabel.Name = "HermanosLabel";
+            this.HermanosLabel.Size = new System.Drawing.Size(251, 20);
+            this.HermanosLabel.TabIndex = 0;
+            this.HermanosLabel.Text = "Hermanos";
+            this.HermanosLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // AmigosDLabel
+            // 
+            this.AmigosDLabel.AutoSize = true;
+            this.AmigosDLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.AmigosDLabel.Location = new System.Drawing.Point(260, 0);
+            this.AmigosDLabel.Name = "AmigosDLabel";
+            this.AmigosDLabel.Size = new System.Drawing.Size(251, 20);
+            this.AmigosDLabel.TabIndex = 1;
+            this.AmigosDLabel.Text = "Amigos";
+            this.AmigosDLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // NinosDLabel
+            // 
+            this.NinosDLabel.AutoSize = true;
+            this.NinosDLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.NinosDLabel.Location = new System.Drawing.Point(517, 0);
+            this.NinosDLabel.Name = "NinosDLabel";
+            this.NinosDLabel.Size = new System.Drawing.Size(253, 20);
+            this.NinosDLabel.TabIndex = 2;
+            this.NinosDLabel.Text = "Niños";
+            this.NinosDLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // HermanosD
+            // 
+            this.HermanosD.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.HermanosD.Location = new System.Drawing.Point(3, 23);
+            this.HermanosD.MaxLength = 2;
+            this.HermanosD.Multiline = true;
+            this.HermanosD.Name = "HermanosD";
+            this.HermanosD.Size = new System.Drawing.Size(251, 34);
+            this.HermanosD.TabIndex = 3;
+            this.HermanosD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.HermanosD.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.HermanosD.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Numeros_KeyPress);
+            // 
+            // AmigosD
+            // 
+            this.AmigosD.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.AmigosD.Location = new System.Drawing.Point(260, 23);
+            this.AmigosD.MaxLength = 2;
+            this.AmigosD.Multiline = true;
+            this.AmigosD.Name = "AmigosD";
+            this.AmigosD.Size = new System.Drawing.Size(251, 34);
+            this.AmigosD.TabIndex = 4;
+            this.AmigosD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.AmigosD.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.AmigosD.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Numeros_KeyPress);
+            // 
+            // NinosD
+            // 
+            this.NinosD.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.NinosD.Location = new System.Drawing.Point(517, 23);
+            this.NinosD.MaxLength = 2;
+            this.NinosD.Multiline = true;
+            this.NinosD.Name = "NinosD";
+            this.NinosD.Size = new System.Drawing.Size(253, 34);
+            this.NinosD.TabIndex = 5;
+            this.NinosD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.NinosD.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.NinosD.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Numeros_KeyPress);
+            // 
+            // ParticipacionLabel
+            // 
+            this.ParticipacionLabel.AutoSize = true;
+            this.ParticipacionLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ParticipacionLabel.Location = new System.Drawing.Point(3, 0);
+            this.ParticipacionLabel.Name = "ParticipacionLabel";
+            this.ParticipacionLabel.Size = new System.Drawing.Size(773, 19);
+            this.ParticipacionLabel.TabIndex = 3;
+            this.ParticipacionLabel.Text = "PARTICIPACIÓN EN EL CICLO MISIÓN AMIGO";
+            this.ParticipacionLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // AsistenciaDLabel
+            // 
+            this.AsistenciaDLabel.AutoSize = true;
+            this.AsistenciaDLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.AsistenciaDLabel.Location = new System.Drawing.Point(3, 89);
+            this.AsistenciaDLabel.Name = "AsistenciaDLabel";
+            this.AsistenciaDLabel.Size = new System.Drawing.Size(773, 16);
+            this.AsistenciaDLabel.TabIndex = 4;
+            this.AsistenciaDLabel.Text = "ASISTENCIA A LA REUNIÓN DOMINICAL";
+            this.AsistenciaDLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // tableLayoutPanel3
             // 
             this.tableLayoutPanel3.ColumnCount = 1;
@@ -920,250 +1279,6 @@
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
             this.tableLayoutPanel4.Size = new System.Drawing.Size(773, 139);
             this.tableLayoutPanel4.TabIndex = 0;
-            // 
-            // tableLayoutPanel7
-            // 
-            this.tableLayoutPanel7.ColumnCount = 1;
-            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel7.Controls.Add(this.ObservacionesLabel, 0, 0);
-            this.tableLayoutPanel7.Controls.Add(this.Observaciones, 0, 1);
-            this.tableLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel7.Location = new System.Drawing.Point(3, 148);
-            this.tableLayoutPanel7.Name = "tableLayoutPanel7";
-            this.tableLayoutPanel7.RowCount = 2;
-            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 17.97753F));
-            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 82.02247F));
-            this.tableLayoutPanel7.Size = new System.Drawing.Size(773, 89);
-            this.tableLayoutPanel7.TabIndex = 1;
-            // 
-            // ReporteLabel
-            // 
-            this.ReporteLabel.AutoSize = true;
-            this.ReporteLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ReporteLabel.Location = new System.Drawing.Point(193, 0);
-            this.ReporteLabel.Name = "ReporteLabel";
-            this.ReporteLabel.Size = new System.Drawing.Size(779, 19);
-            this.ReporteLabel.TabIndex = 2;
-            this.ReporteLabel.Text = "REPORTE DE ACTIVIDADES";
-            this.ReporteLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // tableLayoutPanel2
-            // 
-            this.tableLayoutPanel2.ColumnCount = 1;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 256F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel8, 0, 1);
-            this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel9, 0, 4);
-            this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel10, 0, 3);
-            this.tableLayoutPanel2.Controls.Add(this.ParticipacionLabel, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.AsistenciaDLabel, 0, 2);
-            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(193, 22);
-            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 5;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21.25F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 78.75F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 16F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 66F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 61F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(779, 233);
-            this.tableLayoutPanel2.TabIndex = 0;
-            // 
-            // tableLayoutPanel8
-            // 
-            this.tableLayoutPanel8.ColumnCount = 3;
-            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel8.Controls.Add(this.MALabel, 0, 0);
-            this.tableLayoutPanel8.Controls.Add(this.ConsolidacionLabel, 1, 0);
-            this.tableLayoutPanel8.Controls.Add(this.DiscipuladoLabel, 2, 0);
-            this.tableLayoutPanel8.Controls.Add(this.Consolidacion, 1, 1);
-            this.tableLayoutPanel8.Controls.Add(this.MA, 0, 1);
-            this.tableLayoutPanel8.Controls.Add(this.Discipulado, 2, 1);
-            this.tableLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel8.Location = new System.Drawing.Point(3, 22);
-            this.tableLayoutPanel8.Name = "tableLayoutPanel8";
-            this.tableLayoutPanel8.RowCount = 2;
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 17F));
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel8.Size = new System.Drawing.Size(773, 64);
-            this.tableLayoutPanel8.TabIndex = 0;
-            // 
-            // tableLayoutPanel9
-            // 
-            this.tableLayoutPanel9.ColumnCount = 3;
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel9.Controls.Add(this.AsistenciaDatosLabel, 0, 0);
-            this.tableLayoutPanel9.Controls.Add(this.VEALabel, 1, 0);
-            this.tableLayoutPanel9.Controls.Add(this.ELLabel, 2, 0);
-            this.tableLayoutPanel9.Controls.Add(this.VEA, 1, 1);
-            this.tableLayoutPanel9.Controls.Add(this.EL, 2, 1);
-            this.tableLayoutPanel9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel9.Location = new System.Drawing.Point(3, 174);
-            this.tableLayoutPanel9.Name = "tableLayoutPanel9";
-            this.tableLayoutPanel9.RowCount = 2;
-            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 32.14286F));
-            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 67.85714F));
-            this.tableLayoutPanel9.Size = new System.Drawing.Size(773, 56);
-            this.tableLayoutPanel9.TabIndex = 1;
-            // 
-            // tableLayoutPanel10
-            // 
-            this.tableLayoutPanel10.ColumnCount = 3;
-            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel10.Controls.Add(this.HermanosLabel, 0, 0);
-            this.tableLayoutPanel10.Controls.Add(this.AmigosDLabel, 1, 0);
-            this.tableLayoutPanel10.Controls.Add(this.NinosDLabel, 2, 0);
-            this.tableLayoutPanel10.Controls.Add(this.Hermanos, 0, 1);
-            this.tableLayoutPanel10.Controls.Add(this.AmigosD, 1, 1);
-            this.tableLayoutPanel10.Controls.Add(this.NinosD, 2, 1);
-            this.tableLayoutPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel10.Location = new System.Drawing.Point(3, 108);
-            this.tableLayoutPanel10.Name = "tableLayoutPanel10";
-            this.tableLayoutPanel10.RowCount = 2;
-            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 66.66666F));
-            this.tableLayoutPanel10.Size = new System.Drawing.Size(773, 60);
-            this.tableLayoutPanel10.TabIndex = 2;
-            // 
-            // ParticipacionLabel
-            // 
-            this.ParticipacionLabel.AutoSize = true;
-            this.ParticipacionLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ParticipacionLabel.Location = new System.Drawing.Point(3, 0);
-            this.ParticipacionLabel.Name = "ParticipacionLabel";
-            this.ParticipacionLabel.Size = new System.Drawing.Size(773, 19);
-            this.ParticipacionLabel.TabIndex = 3;
-            this.ParticipacionLabel.Text = "PARTICIPACIÓN EN EL CICLO MISIÓN AMIGO";
-            this.ParticipacionLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // AsistenciaDLabel
-            // 
-            this.AsistenciaDLabel.AutoSize = true;
-            this.AsistenciaDLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.AsistenciaDLabel.Location = new System.Drawing.Point(3, 89);
-            this.AsistenciaDLabel.Name = "AsistenciaDLabel";
-            this.AsistenciaDLabel.Size = new System.Drawing.Size(773, 16);
-            this.AsistenciaDLabel.TabIndex = 4;
-            this.AsistenciaDLabel.Text = "ASISTENCIA A LA REUNIÓN DOMINICAL";
-            this.AsistenciaDLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // AsistenciaDatosLabel
-            // 
-            this.AsistenciaDatosLabel.AutoSize = true;
-            this.AsistenciaDatosLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.AsistenciaDatosLabel.Location = new System.Drawing.Point(3, 0);
-            this.AsistenciaDatosLabel.Name = "AsistenciaDatosLabel";
-            this.AsistenciaDatosLabel.Size = new System.Drawing.Size(251, 17);
-            this.AsistenciaDatosLabel.TabIndex = 0;
-            this.AsistenciaDatosLabel.Text = "ASISTENCIA";
-            this.AsistenciaDatosLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // DatosLabel
-            // 
-            this.DatosLabel.AutoSize = true;
-            this.DatosLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.DatosLabel.Location = new System.Drawing.Point(193, 258);
-            this.DatosLabel.Name = "DatosLabel";
-            this.DatosLabel.Size = new System.Drawing.Size(779, 19);
-            this.DatosLabel.TabIndex = 3;
-            this.DatosLabel.Text = "DATOS";
-            this.DatosLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // MALabel
-            // 
-            this.MALabel.AutoSize = true;
-            this.MALabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.MALabel.Location = new System.Drawing.Point(3, 0);
-            this.MALabel.Name = "MALabel";
-            this.MALabel.Size = new System.Drawing.Size(251, 17);
-            this.MALabel.TabIndex = 0;
-            this.MALabel.Text = "Misión Amigo";
-            this.MALabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // ConsolidacionLabel
-            // 
-            this.ConsolidacionLabel.AutoSize = true;
-            this.ConsolidacionLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ConsolidacionLabel.Location = new System.Drawing.Point(260, 0);
-            this.ConsolidacionLabel.Name = "ConsolidacionLabel";
-            this.ConsolidacionLabel.Size = new System.Drawing.Size(251, 17);
-            this.ConsolidacionLabel.TabIndex = 1;
-            this.ConsolidacionLabel.Text = "Consolidación";
-            this.ConsolidacionLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // DiscipuladoLabel
-            // 
-            this.DiscipuladoLabel.AutoSize = true;
-            this.DiscipuladoLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.DiscipuladoLabel.Location = new System.Drawing.Point(517, 0);
-            this.DiscipuladoLabel.Name = "DiscipuladoLabel";
-            this.DiscipuladoLabel.Size = new System.Drawing.Size(253, 17);
-            this.DiscipuladoLabel.TabIndex = 2;
-            this.DiscipuladoLabel.Text = "Discipulado 1";
-            this.DiscipuladoLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // HermanosLabel
-            // 
-            this.HermanosLabel.AutoSize = true;
-            this.HermanosLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.HermanosLabel.Location = new System.Drawing.Point(3, 0);
-            this.HermanosLabel.Name = "HermanosLabel";
-            this.HermanosLabel.Size = new System.Drawing.Size(251, 19);
-            this.HermanosLabel.TabIndex = 0;
-            this.HermanosLabel.Text = "Hermanos";
-            this.HermanosLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // AmigosDLabel
-            // 
-            this.AmigosDLabel.AutoSize = true;
-            this.AmigosDLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.AmigosDLabel.Location = new System.Drawing.Point(260, 0);
-            this.AmigosDLabel.Name = "AmigosDLabel";
-            this.AmigosDLabel.Size = new System.Drawing.Size(251, 19);
-            this.AmigosDLabel.TabIndex = 1;
-            this.AmigosDLabel.Text = "Amigos";
-            this.AmigosDLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // NinosDLabel
-            // 
-            this.NinosDLabel.AutoSize = true;
-            this.NinosDLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.NinosDLabel.Location = new System.Drawing.Point(517, 0);
-            this.NinosDLabel.Name = "NinosDLabel";
-            this.NinosDLabel.Size = new System.Drawing.Size(253, 19);
-            this.NinosDLabel.TabIndex = 2;
-            this.NinosDLabel.Text = "Niños";
-            this.NinosDLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // VEALabel
-            // 
-            this.VEALabel.AutoSize = true;
-            this.VEALabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.VEALabel.Location = new System.Drawing.Point(260, 0);
-            this.VEALabel.Name = "VEALabel";
-            this.VEALabel.Size = new System.Drawing.Size(251, 17);
-            this.VEALabel.TabIndex = 1;
-            this.VEALabel.Text = "V.E.A";
-            this.VEALabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // ELLabel
-            // 
-            this.ELLabel.AutoSize = true;
-            this.ELLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ELLabel.Location = new System.Drawing.Point(517, 0);
-            this.ELLabel.Name = "ELLabel";
-            this.ELLabel.Size = new System.Drawing.Size(253, 17);
-            this.ELLabel.TabIndex = 2;
-            this.ELLabel.Text = "ESCUELA DE LIDERAZGO";
-            this.ELLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // FLLabel
             // 
@@ -1231,17 +1346,6 @@
             this.DHLabel.Text = "DÍA/HORA";
             this.DHLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // ObservacionesLabel
-            // 
-            this.ObservacionesLabel.AutoSize = true;
-            this.ObservacionesLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ObservacionesLabel.Location = new System.Drawing.Point(3, 0);
-            this.ObservacionesLabel.Name = "ObservacionesLabel";
-            this.ObservacionesLabel.Size = new System.Drawing.Size(767, 15);
-            this.ObservacionesLabel.TabIndex = 0;
-            this.ObservacionesLabel.Text = "OBSERVACIONES";
-            this.ObservacionesLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // tableLayoutPanel11
             // 
             this.tableLayoutPanel11.ColumnCount = 2;
@@ -1254,9 +1358,33 @@
             this.tableLayoutPanel11.Name = "tableLayoutPanel11";
             this.tableLayoutPanel11.RowCount = 1;
             this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tableLayoutPanel11.Size = new System.Drawing.Size(380, 30);
             this.tableLayoutPanel11.TabIndex = 6;
+            // 
+            // Direccion
+            // 
+            this.Direccion.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Direccion.Location = new System.Drawing.Point(3, 3);
+            this.Direccion.MaxLength = 20;
+            this.Direccion.Multiline = true;
+            this.Direccion.Name = "Direccion";
+            this.Direccion.Size = new System.Drawing.Size(184, 24);
+            this.Direccion.TabIndex = 0;
+            this.Direccion.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.Direccion.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NumerosLetras_KeyPress);
+            // 
+            // Telefono
+            // 
+            this.Telefono.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Telefono.Location = new System.Drawing.Point(193, 3);
+            this.Telefono.MaxLength = 10;
+            this.Telefono.Multiline = true;
+            this.Telefono.Name = "Telefono";
+            this.Telefono.Size = new System.Drawing.Size(184, 24);
+            this.Telefono.TabIndex = 1;
+            this.Telefono.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.Telefono.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Numeros_KeyPress);
             // 
             // tableLayoutPanel12
             // 
@@ -1282,200 +1410,70 @@
             this.tableLayoutPanel12.Size = new System.Drawing.Size(381, 30);
             this.tableLayoutPanel12.TabIndex = 7;
             // 
-            // Consolidacion
-            // 
-            this.Consolidacion.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Consolidacion.Location = new System.Drawing.Point(260, 20);
-            this.Consolidacion.Multiline = true;
-            this.Consolidacion.Name = "Consolidacion";
-            this.Consolidacion.Size = new System.Drawing.Size(251, 41);
-            this.Consolidacion.TabIndex = 3;
-            this.Consolidacion.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // MA
-            // 
-            this.MA.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.MA.Location = new System.Drawing.Point(3, 20);
-            this.MA.Multiline = true;
-            this.MA.Name = "MA";
-            this.MA.Size = new System.Drawing.Size(251, 41);
-            this.MA.TabIndex = 4;
-            this.MA.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // Discipulado
-            // 
-            this.Discipulado.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Discipulado.Location = new System.Drawing.Point(517, 20);
-            this.Discipulado.Multiline = true;
-            this.Discipulado.Name = "Discipulado";
-            this.Discipulado.Size = new System.Drawing.Size(253, 41);
-            this.Discipulado.TabIndex = 5;
-            this.Discipulado.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // Hermanos
-            // 
-            this.Hermanos.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Hermanos.Location = new System.Drawing.Point(3, 22);
-            this.Hermanos.Multiline = true;
-            this.Hermanos.Name = "Hermanos";
-            this.Hermanos.Size = new System.Drawing.Size(251, 35);
-            this.Hermanos.TabIndex = 3;
-            this.Hermanos.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // AmigosD
-            // 
-            this.AmigosD.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.AmigosD.Location = new System.Drawing.Point(260, 22);
-            this.AmigosD.Multiline = true;
-            this.AmigosD.Name = "AmigosD";
-            this.AmigosD.Size = new System.Drawing.Size(251, 35);
-            this.AmigosD.TabIndex = 4;
-            this.AmigosD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // NinosD
-            // 
-            this.NinosD.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.NinosD.Location = new System.Drawing.Point(517, 22);
-            this.NinosD.Multiline = true;
-            this.NinosD.Name = "NinosD";
-            this.NinosD.Size = new System.Drawing.Size(253, 35);
-            this.NinosD.TabIndex = 5;
-            this.NinosD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // VEA
-            // 
-            this.VEA.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.VEA.Location = new System.Drawing.Point(260, 20);
-            this.VEA.Multiline = true;
-            this.VEA.Name = "VEA";
-            this.VEA.Size = new System.Drawing.Size(251, 33);
-            this.VEA.TabIndex = 4;
-            this.VEA.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // EL
-            // 
-            this.EL.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.EL.Location = new System.Drawing.Point(517, 20);
-            this.EL.Multiline = true;
-            this.EL.Name = "EL";
-            this.EL.Size = new System.Drawing.Size(253, 33);
-            this.EL.TabIndex = 5;
-            this.EL.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // FL
-            // 
-            this.FL.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.FL.Location = new System.Drawing.Point(3, 17);
-            this.FL.Multiline = true;
-            this.FL.Name = "FL";
-            this.FL.Size = new System.Drawing.Size(380, 27);
-            this.FL.TabIndex = 8;
-            // 
-            // Asistente
-            // 
-            this.Asistente.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Asistente.Location = new System.Drawing.Point(389, 17);
-            this.Asistente.Multiline = true;
-            this.Asistente.Name = "Asistente";
-            this.Asistente.Size = new System.Drawing.Size(381, 27);
-            this.Asistente.TabIndex = 9;
-            // 
-            // Anfitrion
-            // 
-            this.Anfitrion.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Anfitrion.Location = new System.Drawing.Point(3, 63);
-            this.Anfitrion.Multiline = true;
-            this.Anfitrion.Name = "Anfitrion";
-            this.Anfitrion.Size = new System.Drawing.Size(380, 23);
-            this.Anfitrion.TabIndex = 10;
-            // 
-            // MN
-            // 
-            this.MN.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.MN.Location = new System.Drawing.Point(389, 63);
-            this.MN.Multiline = true;
-            this.MN.Name = "MN";
-            this.MN.Size = new System.Drawing.Size(381, 23);
-            this.MN.TabIndex = 11;
-            // 
-            // Direccion
-            // 
-            this.Direccion.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Direccion.Location = new System.Drawing.Point(3, 3);
-            this.Direccion.Multiline = true;
-            this.Direccion.Name = "Direccion";
-            this.Direccion.Size = new System.Drawing.Size(184, 24);
-            this.Direccion.TabIndex = 0;
-            this.Direccion.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // Telefono
-            // 
-            this.Telefono.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Telefono.Location = new System.Drawing.Point(193, 3);
-            this.Telefono.Multiline = true;
-            this.Telefono.Name = "Telefono";
-            this.Telefono.Size = new System.Drawing.Size(184, 24);
-            this.Telefono.TabIndex = 1;
-            this.Telefono.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // diaD
             // 
             this.diaD.Dock = System.Windows.Forms.DockStyle.Fill;
             this.diaD.Location = new System.Drawing.Point(3, 3);
+            this.diaD.MaxLength = 2;
             this.diaD.Multiline = true;
             this.diaD.Name = "diaD";
             this.diaD.Size = new System.Drawing.Size(62, 24);
             this.diaD.TabIndex = 0;
             this.diaD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.diaD.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.diaD.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Numeros_KeyPress);
             // 
             // mesD
             // 
             this.mesD.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mesD.Location = new System.Drawing.Point(71, 3);
+            this.mesD.MaxLength = 2;
             this.mesD.Multiline = true;
             this.mesD.Name = "mesD";
             this.mesD.Size = new System.Drawing.Size(62, 24);
             this.mesD.TabIndex = 1;
             this.mesD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.mesD.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.mesD.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Numeros_KeyPress);
             // 
             // anoD
             // 
             this.anoD.Dock = System.Windows.Forms.DockStyle.Fill;
             this.anoD.Location = new System.Drawing.Point(139, 3);
+            this.anoD.MaxLength = 2;
             this.anoD.Multiline = true;
             this.anoD.Name = "anoD";
             this.anoD.Size = new System.Drawing.Size(62, 24);
             this.anoD.TabIndex = 2;
             this.anoD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.anoD.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.anoD.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Numeros_KeyPress);
             // 
             // hora
             // 
             this.hora.Dock = System.Windows.Forms.DockStyle.Fill;
             this.hora.Location = new System.Drawing.Point(226, 3);
+            this.hora.MaxLength = 2;
             this.hora.Multiline = true;
             this.hora.Name = "hora";
             this.hora.Size = new System.Drawing.Size(62, 24);
             this.hora.TabIndex = 3;
             this.hora.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.hora.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.hora.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Numeros_KeyPress);
             // 
             // min
             // 
             this.min.Dock = System.Windows.Forms.DockStyle.Fill;
             this.min.Location = new System.Drawing.Point(313, 3);
+            this.min.MaxLength = 2;
             this.min.Multiline = true;
             this.min.Name = "min";
             this.min.Size = new System.Drawing.Size(65, 24);
             this.min.TabIndex = 4;
             this.min.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // Observaciones
-            // 
-            this.Observaciones.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Observaciones.Location = new System.Drawing.Point(3, 18);
-            this.Observaciones.Multiline = true;
-            this.Observaciones.Name = "Observaciones";
-            this.Observaciones.Size = new System.Drawing.Size(767, 68);
-            this.Observaciones.TabIndex = 1;
+            this.min.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.min.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Numeros_KeyPress);
             // 
             // label1
             // 
@@ -1488,50 +1486,120 @@
             this.label1.Text = ":";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Botones
+            // FL
             // 
-            this.Botones.Controls.Add(this.Enviar);
-            this.Botones.Controls.Add(this.Datosbutton);
-            this.Botones.Controls.Add(this.Datos);
-            this.Botones.Controls.Add(this.ISGBbutton);
-            this.Botones.Controls.Add(this.ISGB);
-            this.Botones.Dock = System.Windows.Forms.DockStyle.Left;
-            this.Botones.Location = new System.Drawing.Point(0, 0);
-            this.Botones.Name = "Botones";
-            this.Botones.Size = new System.Drawing.Size(216, 537);
-            this.Botones.TabIndex = 11;
+            this.FL.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.FL.Location = new System.Drawing.Point(3, 17);
+            this.FL.Multiline = true;
+            this.FL.Name = "FL";
+            this.FL.ReadOnly = true;
+            this.FL.Size = new System.Drawing.Size(380, 27);
+            this.FL.TabIndex = 8;
             // 
-            // Enviar
+            // Asistente
             // 
-            this.Enviar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Enviar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Enviar.Location = new System.Drawing.Point(63, 475);
-            this.Enviar.Name = "Enviar";
-            this.Enviar.Size = new System.Drawing.Size(80, 35);
-            this.Enviar.TabIndex = 13;
-            this.Enviar.Text = "Enviar";
-            this.Enviar.UseVisualStyleBackColor = true;
+            this.Asistente.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Asistente.Location = new System.Drawing.Point(389, 17);
+            this.Asistente.Multiline = true;
+            this.Asistente.Name = "Asistente";
+            this.Asistente.ReadOnly = true;
+            this.Asistente.Size = new System.Drawing.Size(381, 27);
+            this.Asistente.TabIndex = 9;
             // 
-            // Datosbutton
+            // Anfitrion
             // 
-            this.Datosbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Datosbutton.Image = global::CentroCristiano.Properties.Resources.sig;
-            this.Datosbutton.Location = new System.Drawing.Point(161, 73);
-            this.Datosbutton.Name = "Datosbutton";
-            this.Datosbutton.Size = new System.Drawing.Size(55, 55);
-            this.Datosbutton.TabIndex = 12;
-            this.Datosbutton.UseVisualStyleBackColor = true;
-            this.Datosbutton.Click += new System.EventHandler(this.Datosbutton_Click);
+            this.Anfitrion.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Anfitrion.Location = new System.Drawing.Point(3, 63);
+            this.Anfitrion.MaxLength = 45;
+            this.Anfitrion.Multiline = true;
+            this.Anfitrion.Name = "Anfitrion";
+            this.Anfitrion.Size = new System.Drawing.Size(380, 23);
+            this.Anfitrion.TabIndex = 10;
+            this.Anfitrion.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.Anfitrion.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Texto_KeyPress);
             // 
-            // Datos
+            // MN
             // 
-            this.Datos.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Datos.Location = new System.Drawing.Point(-4, 73);
-            this.Datos.Name = "Datos";
-            this.Datos.Size = new System.Drawing.Size(165, 55);
-            this.Datos.TabIndex = 11;
-            this.Datos.Text = "Datos";
-            this.Datos.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.MN.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.MN.Location = new System.Drawing.Point(389, 63);
+            this.MN.MaxLength = 45;
+            this.MN.Multiline = true;
+            this.MN.Name = "MN";
+            this.MN.Size = new System.Drawing.Size(381, 23);
+            this.MN.TabIndex = 11;
+            this.MN.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.MN.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Texto_KeyPress);
+            // 
+            // tableLayoutPanel7
+            // 
+            this.tableLayoutPanel7.ColumnCount = 1;
+            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 773F));
+            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.Controls.Add(this.ObservacionesLabel, 0, 0);
+            this.tableLayoutPanel7.Controls.Add(this.Observaciones, 0, 1);
+            this.tableLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel7.Location = new System.Drawing.Point(3, 148);
+            this.tableLayoutPanel7.Name = "tableLayoutPanel7";
+            this.tableLayoutPanel7.RowCount = 2;
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 17.97753F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 82.02247F));
+            this.tableLayoutPanel7.Size = new System.Drawing.Size(773, 89);
+            this.tableLayoutPanel7.TabIndex = 1;
+            // 
+            // ObservacionesLabel
+            // 
+            this.ObservacionesLabel.AutoSize = true;
+            this.ObservacionesLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ObservacionesLabel.Location = new System.Drawing.Point(3, 0);
+            this.ObservacionesLabel.Name = "ObservacionesLabel";
+            this.ObservacionesLabel.Size = new System.Drawing.Size(767, 16);
+            this.ObservacionesLabel.TabIndex = 0;
+            this.ObservacionesLabel.Text = "OBSERVACIONES";
+            this.ObservacionesLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Observaciones
+            // 
+            this.Observaciones.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Observaciones.Location = new System.Drawing.Point(3, 19);
+            this.Observaciones.MaxLength = 380;
+            this.Observaciones.Multiline = true;
+            this.Observaciones.Name = "Observaciones";
+            this.Observaciones.Size = new System.Drawing.Size(767, 67);
+            this.Observaciones.TabIndex = 1;
+            this.Observaciones.TextChanged += new System.EventHandler(this.Box_TextChanged);
+            this.Observaciones.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NumerosLetras_KeyPress);
+            // 
+            // ReporteLabel
+            // 
+            this.ReporteLabel.AutoSize = true;
+            this.ReporteLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ReporteLabel.Location = new System.Drawing.Point(193, 0);
+            this.ReporteLabel.Name = "ReporteLabel";
+            this.ReporteLabel.Size = new System.Drawing.Size(779, 19);
+            this.ReporteLabel.TabIndex = 2;
+            this.ReporteLabel.Text = "REPORTE DE ACTIVIDADES";
+            this.ReporteLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // DatosLabel
+            // 
+            this.DatosLabel.AutoSize = true;
+            this.DatosLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.DatosLabel.Location = new System.Drawing.Point(193, 258);
+            this.DatosLabel.Name = "DatosLabel";
+            this.DatosLabel.Size = new System.Drawing.Size(779, 19);
+            this.DatosLabel.TabIndex = 3;
+            this.DatosLabel.Text = "DATOS";
+            this.DatosLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // ISGB
+            // 
+            this.ISGB.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ISGB.Location = new System.Drawing.Point(-4, 9);
+            this.ISGB.Name = "ISGB";
+            this.ISGB.Size = new System.Drawing.Size(165, 55);
+            this.ISGB.TabIndex = 9;
+            this.ISGB.Text = "Informe Semanal del Grupo Biblico";
+            this.ISGB.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // ISGBbutton
             // 
@@ -1544,15 +1612,52 @@
             this.ISGBbutton.UseVisualStyleBackColor = true;
             this.ISGBbutton.Click += new System.EventHandler(this.ISGBbutton_Click);
             // 
-            // ISGB
+            // Datos
             // 
-            this.ISGB.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ISGB.Location = new System.Drawing.Point(-4, 9);
-            this.ISGB.Name = "ISGB";
-            this.ISGB.Size = new System.Drawing.Size(165, 55);
-            this.ISGB.TabIndex = 9;
-            this.ISGB.Text = "Informe Semanal del Grupo Biblico";
-            this.ISGB.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Datos.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Datos.Location = new System.Drawing.Point(-4, 73);
+            this.Datos.Name = "Datos";
+            this.Datos.Size = new System.Drawing.Size(165, 55);
+            this.Datos.TabIndex = 11;
+            this.Datos.Text = "Datos";
+            this.Datos.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Datosbutton
+            // 
+            this.Datosbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Datosbutton.Image = global::CentroCristiano.Properties.Resources.sig;
+            this.Datosbutton.Location = new System.Drawing.Point(161, 73);
+            this.Datosbutton.Name = "Datosbutton";
+            this.Datosbutton.Size = new System.Drawing.Size(55, 55);
+            this.Datosbutton.TabIndex = 12;
+            this.Datosbutton.UseVisualStyleBackColor = true;
+            this.Datosbutton.Click += new System.EventHandler(this.Datosbutton_Click);
+            // 
+            // Enviar
+            // 
+            this.Enviar.Enabled = false;
+            this.Enviar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Enviar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Enviar.Location = new System.Drawing.Point(63, 475);
+            this.Enviar.Name = "Enviar";
+            this.Enviar.Size = new System.Drawing.Size(80, 35);
+            this.Enviar.TabIndex = 13;
+            this.Enviar.Text = "Enviar";
+            this.Enviar.UseVisualStyleBackColor = true;
+            this.Enviar.Visible = false;
+            // 
+            // Botones
+            // 
+            this.Botones.Controls.Add(this.Enviar);
+            this.Botones.Controls.Add(this.Datosbutton);
+            this.Botones.Controls.Add(this.Datos);
+            this.Botones.Controls.Add(this.ISGBbutton);
+            this.Botones.Controls.Add(this.ISGB);
+            this.Botones.Dock = System.Windows.Forms.DockStyle.Left;
+            this.Botones.Location = new System.Drawing.Point(0, 0);
+            this.Botones.Name = "Botones";
+            this.Botones.Size = new System.Drawing.Size(216, 537);
+            this.Botones.TabIndex = 13;
             // 
             // InterfazLider
             // 
@@ -1589,11 +1694,6 @@
             this.DatosTab.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
-            this.tableLayoutPanel3.ResumeLayout(false);
-            this.tableLayoutPanel4.ResumeLayout(false);
-            this.tableLayoutPanel4.PerformLayout();
-            this.tableLayoutPanel7.ResumeLayout(false);
-            this.tableLayoutPanel7.PerformLayout();
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
             this.tableLayoutPanel8.ResumeLayout(false);
@@ -1602,10 +1702,15 @@
             this.tableLayoutPanel9.PerformLayout();
             this.tableLayoutPanel10.ResumeLayout(false);
             this.tableLayoutPanel10.PerformLayout();
+            this.tableLayoutPanel3.ResumeLayout(false);
+            this.tableLayoutPanel4.ResumeLayout(false);
+            this.tableLayoutPanel4.PerformLayout();
             this.tableLayoutPanel11.ResumeLayout(false);
             this.tableLayoutPanel11.PerformLayout();
             this.tableLayoutPanel12.ResumeLayout(false);
             this.tableLayoutPanel12.PerformLayout();
+            this.tableLayoutPanel7.ResumeLayout(false);
+            this.tableLayoutPanel7.PerformLayout();
             this.Botones.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -1689,7 +1794,7 @@
         private System.Windows.Forms.Label HermanosLabel;
         private System.Windows.Forms.Label AmigosDLabel;
         private System.Windows.Forms.Label NinosDLabel;
-        private System.Windows.Forms.TextBox Hermanos;
+        private System.Windows.Forms.TextBox HermanosD;
         private System.Windows.Forms.TextBox AmigosD;
         private System.Windows.Forms.TextBox NinosD;
         private System.Windows.Forms.Label ParticipacionLabel;
@@ -1718,11 +1823,11 @@
         private System.Windows.Forms.TextBox Observaciones;
         private System.Windows.Forms.Label ReporteLabel;
         private System.Windows.Forms.Label DatosLabel;
-        private System.Windows.Forms.Panel Botones;
-        private System.Windows.Forms.Button Enviar;
-        private System.Windows.Forms.Button Datosbutton;
-        private System.Windows.Forms.Label Datos;
-        private System.Windows.Forms.Button ISGBbutton;
         private System.Windows.Forms.Label ISGB;
+        private System.Windows.Forms.Button ISGBbutton;
+        private System.Windows.Forms.Label Datos;
+        private System.Windows.Forms.Button Datosbutton;
+        private System.Windows.Forms.Button Enviar;
+        private System.Windows.Forms.Panel Botones;
     }
 }

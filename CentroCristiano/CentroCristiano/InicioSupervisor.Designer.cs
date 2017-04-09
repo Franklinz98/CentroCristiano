@@ -122,6 +122,7 @@
             this.MinimumSize = new System.Drawing.Size(510, 300);
             this.Name = "InicioSupervisor";
             this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Iniciar Sesión";
             this.TopMost = true;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

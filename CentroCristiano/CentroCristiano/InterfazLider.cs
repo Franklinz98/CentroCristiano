@@ -12,6 +12,7 @@ namespace CentroCristiano
 {
     public partial class InterfazLider : Form
     {
+        
         public InterfazLider()
         {
             InitializeComponent();
@@ -135,7 +136,7 @@ namespace CentroCristiano
 
             HermanosLabel.BackColor = Components.GetVerdeClaro();
             HermanosLabel.ForeColor = Components.GetBlanco();
-            Hermanos.BackColor = Components.GetBlanco();
+            HermanosD.BackColor = Components.GetBlanco();
             AmigosDLabel.BackColor = Components.GetVerdeClaro();
             AmigosDLabel.ForeColor = Components.GetBlanco();
             AmigosD.BackColor = Components.GetBlanco();
@@ -182,6 +183,17 @@ namespace CentroCristiano
             Observaciones.BackColor = Components.GetBlanco();
         }
 
+        bool activar()
+        {
+            return (!string.IsNullOrEmpty(dia.Text) && !string.IsNullOrEmpty(mes.Text) && !string.IsNullOrEmpty(anno.Text) && !string.IsNullOrEmpty(PastorS.Text) && !string.IsNullOrEmpty(Coordinador.Text) && !string.IsNullOrEmpty(SdeR.Text)
+                  && !string.IsNullOrEmpty(FelipeG.Text) && !string.IsNullOrEmpty(Codigo.Text) && !string.IsNullOrEmpty(NombreG.Text) && !string.IsNullOrEmpty(Felipes.Text) && !string.IsNullOrEmpty(Etiopes.Text) && !string.IsNullOrEmpty(Amigos.Text)
+                   && !string.IsNullOrEmpty(Ninos.Text) && !string.IsNullOrEmpty(Ausentes.Text) && !string.IsNullOrEmpty(Visitas.Text) && !string.IsNullOrEmpty(ConversionA.Text) && !string.IsNullOrEmpty(ConversionN.Text) && !string.IsNullOrEmpty(Reconciliados.Text)
+                    && !string.IsNullOrEmpty(Diezmo.Text) && !string.IsNullOrEmpty(Ofrenda.Text) && !string.IsNullOrEmpty(MA.Text) && !string.IsNullOrEmpty(Consolidacion.Text) && !string.IsNullOrEmpty(Discipulado.Text) && !string.IsNullOrEmpty(HermanosD.Text)
+                     && !string.IsNullOrEmpty(AmigosD.Text) && !string.IsNullOrEmpty(NinosD.Text) && !string.IsNullOrEmpty(VEA.Text) && !string.IsNullOrEmpty(EL.Text) && !string.IsNullOrEmpty(Anfitrion.Text) && !string.IsNullOrEmpty(MN.Text)
+                      && !string.IsNullOrEmpty(Direccion.Text) && !string.IsNullOrEmpty(Telefono.Text) && !string.IsNullOrEmpty(diaD.Text) && !string.IsNullOrEmpty(mesD.Text) && !string.IsNullOrEmpty(anoD.Text) && !string.IsNullOrEmpty(hora.Text) 
+                       && !string.IsNullOrEmpty(min.Text) && !string.IsNullOrEmpty(Observaciones.Text));
+        }
+
         private void ISGBbutton_Click(object sender, EventArgs e)
         {
             Formulario.SelectedTab = ISGBTab;
@@ -190,6 +202,46 @@ namespace CentroCristiano
         private void Datosbutton_Click(object sender, EventArgs e)
         {
             Formulario.SelectedTab = DatosTab;
+        }
+        private void Box_TextChanged(object sender, EventArgs e)
+        {
+            if ((((!(string.IsNullOrEmpty(Diezmo.Text))) && (Diezmo.Text.Length > 2)) && (!(string.IsNullOrEmpty(Ofrenda.Text))) && (Ofrenda.Text.Length > 2)) == true)
+            {
+                Total.Text = Convert.ToString(int.Parse(Diezmo.Text) + int.Parse(Ofrenda.Text));
+            }
+            else
+            {
+                Total.Text = "";
+            }
+            if (activar() == true)
+            {
+                Enviar.Enabled = true;
+                Enviar.Visible = true;
+            }
+        }
+
+        private void Numeros_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!(char.IsDigit(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void Texto_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!(char.IsLetter(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void NumerosLetras_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!(char.IsLetter(e.KeyChar)) && (!(char.IsDigit(e.KeyChar))) && (e.KeyChar != '#') && (e.KeyChar != (char)Keys.Back))
+            {
+                e.Handled = true;
+            }
         }
     }
 }
